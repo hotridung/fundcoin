@@ -1,0 +1,32 @@
+src/fundcoin
+src/test_fundcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.fundcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+fundcoin-qt
+fundcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+fundcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
